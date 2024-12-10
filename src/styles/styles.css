@@ -9,7 +9,7 @@
     --color-primary-1: #fae9eb;
     --color-primary-2: #f5d6db;
     --color-primary-3: #e28a9a;
-    --color-primary-4: #d76c82; /* cor base no tailwind css color generator */
+    --color-primary-4: #d76c82;/*  cor base no tailwind css color generator */
     --color-primary-5: #be4060;
     --color-primary-6: #9f3150;
 
@@ -29,7 +29,7 @@ html{
 }
 
 body {
-    background-color:var(--color-primary-1);
+    background: linear-gradient(to right, var(--color-primary-1), #f5d6db);
 }
 
 section {
@@ -39,6 +39,7 @@ section {
 
 .btn-default {
     border: none;
+    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,6 +53,7 @@ section {
 }
 
 .btn-default:hover {
+    text-decoration: none;
     background-color: var(--color-primary-4);
 }
 
@@ -59,13 +61,14 @@ section {
 .social_media_buttons {
     display: flex;
     gap: 18px;
+    padding-top: 10px;
 }
 
 .social_media_buttons a {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 45px;
+    width: 105px;
     height: 40px;
     background-color: var(--color-neutral-0);
     font-size: 1.15rem;
@@ -87,5 +90,11 @@ section {
 
 .section-subtitle {
     font-size: 2.1875rem;
+}
+
+#link-estatistica {
+    border: none;
+    text-decoration: none;
+    text-decoration-line: none;
 }
 

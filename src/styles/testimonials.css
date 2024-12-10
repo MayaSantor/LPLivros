@@ -44,14 +44,29 @@
     object-fit: cover;
 }
 
-.feedback-content p {
-    display: flex;
-    justify-content: space-between;
+.estatistica-icone {
+    font-size: 40px;
+    color: var(--color-primary-5);
+    padding: 5px;
 }
 
-.feedback-content p span {
-    color: var(--color-primary-6);
+.texto-comum {
+    font-size: 35px;
+    display: inline-flex; 
+    align-items: center;
+    color: var(--color-neutral-9);
+
 }
+
+.destaque {
+    font-size: 40px;
+    margin-left: 5px; 
+    font-weight: bold;
+    color: var(--color-primary-5);
+}
+    
+
+
 
 @media screen and (max-width: 1170px) {
     #testimonials {
