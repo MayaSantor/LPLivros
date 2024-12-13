@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+
+
+    <link rel="icon" href="src/images/favicon.ico" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Leituras do ano</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="logo">
+                <img src="src/images/book-logo.png" alt="" id="nav_logo">
+                <span id="nav_text">livros</span>
+            </div>
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Preferidos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Estatística</a>
+                </li>
+            </ul>
+
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Preferidos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Estatística</a>
+                </li>
+            </ul>
+
+
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Da estante à sua próxima
+                    <span>aventura</span>
+                </h1>
+                <p class="description"> Fique à vontade para explorar minhas experiências literárias e quem sabe
+                    descobrir seu próximo livro!
+                </p>
+
+                <div id="cta_button">
+                    <a href="#menu" class="btn-default">
+                        Leituras
+                    </a>
+                    <a href="https://www.skoob.com.br/usuario/9354703" id="link_button">
+                        <img src="src/images/icons8-book.gif" alt="Skoob" id="skoob_icon">
+
+                        Skoob
+                    </a>
+                    <a href="https://github.com/MayaSantor" id="link_button">
+                        <i class="fa-brands fa-github"></i>
+                        GitHub
+                    </a>
+                </div>
+
+
+            </div>
+
+            <div id="banner">
+                <img src="src/images/open-doodles-reading-side.gif" alt="">
+            </div>
+
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Preferidos</h2>
+            <h3 class="section-subtitle">Melhores leitura do ano </h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/CourtOfSilverFlames.jpg" class="book-image" alt="">
+                    <h3 class="dish-title">
+                        A Court of Silver Flames
+                    </h3>
+
+                    <span class="dish-description">
+                        Destaca a evolução da Nestha, apesar de não lidar com os erros do passado. O amadurecimento dos personagens foi bem pensado.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(768 páginas)</span>
+                    </div>
+
+                    <div class="reading-date">
+                        <h4>
+                            01/01/2024 - 03/01/2024
+                        </h4>
+
+                    </div>
+
+                </div>
+
+            
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/LessonsInChemistry.jpg" class="book-image" alt="">
+                    <h3 class="dish-title">
+                        Lessons in Chemistry
+                    </h3>
+
+                    <span class="dish-description">
+                        Uma história de inspiração de crescimento pessoal e profissional. Ver a personagem navegar por diferentes momentos da vida foi uma experiência incrível.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(400 páginas)</span>
+                    </div>
+
+                    <div class="reading-date">
+                        <h4>
+                            09/04/2024 - 11/04/2024
+                        </h4>
+                    </div>
+
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/Mockingjay.jpg" class="book-image" alt="">
+                    <h3 class="dish-title">
+                        Mockingjay
+                    </h3>
+
+                    <span class="dish-description">
+                        Final digno para a trilogia que te faz refletir sobre o uso de crianças e adolescentes como estratégia de controle da sociedade.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(390 páginas)</span>
+                    </div>
+
+                    <div class="reading-date">
+                        <h4>
+                            20/05/2024 - 27/05/2024
+                        </h4>
+                    </div>
+
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/A Good Girl's Guide To Murder.jpg" class="book-image" alt="">
+                    <h3 class="dish-title">
+                        A Good Girl's Guide To Murder
+                    </h3>
+
+                    <span class="dish-description">
+                        Pip é a mini investigadora da vez que vai te explicar um assassinato que é cheio de reviravoltas.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(433 páginas)</span>
+                    </div>
+
+                    <div class="reading-date">
+                        <h4>
+                            07/06/2024 - 13/06/2024
+                        </h4>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <img src="src/images/BooksAnimation.gif" alt="" id="testimonial_chef">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Estatística
+                </h2>
+                <h3 class="section-subtitle">
+                    Leituras do ano
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <div class="estatistica-icone">
+                            <i class="fa-solid fa-book"></i>
+                        </div>
+
+
+                        <div class="feedback-content">
+                            <h2 class="title">
+                                <span class="texto-comum">Li</span>
+                                <span class="destaque"> 60 </span>
+                                <span class="texto-comum">livros em 2024.</span>
+                            </h2>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <div class="estatistica-icone">
+                            <i class="fa-solid fa-book-open"></i>
+                        </div>
+
+
+                        <div class="feedback-content">
+                            <h2 class="title">
+                                <span class="texto-comum">Total de</span>
+                                <span class="destaque"> 26.496 </span>
+                                <span class="texto-comum">de páginas no ano</span>
+                            </h2>
+                    </div>
+                </div>
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <div class="estatistica-icone">
+                            <i class="fa-solid fa-book-open-reader"></i>
+                        </div>
+
+                        <div class="feedback-content">
+                            <h2 class="title">
+                                <span class="texto-comum">Li</span>
+                                <span class="destaque"> 77</span>
+                                <span class="texto-comum">páginas por dia</span>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div id="cta_button">
+                <a href="https://www.skoob.com.br/leituras/retrospectiva/2024/maysantor" class="btn-default">
+                    Veja a avalição completa de 20214!
+                </a>
+            </div>
+
+            
+        </section>
+    </main>
+
+    <footer>
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2024 Mayara Cortes
+            </span>
+
+            <div class="social_media_buttons">
+                <a href="https://www.skoob.com.br/usuario/9354703" id="link_button">
+                    <img src="src/images/icons8-book.gif" alt="Skoob" id="skoob_icon">
+
+                    Skoob
+                </a>
+                <a href="https://github.com/MayaSantor" id="link_button">
+                    <i class="fa-brands fa-github"></i>
+                    GitHub
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="src/javascript/script.js"></script>
+</body>
+
+</html>
