@@ -28,7 +28,7 @@
 #cta_button {
     display: flex;
     gap: 24px;
-    justify-content: space-between;
+    justify-content: left;
     align-items: center;
 }
 

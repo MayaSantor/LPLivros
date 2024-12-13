@@ -29,7 +29,7 @@ html{
 }
 
 body {
-    background: linear-gradient(to right, var(--color-primary-1), #f5d6db);
+    background: linear-gradient(to right, var(--color-primary-3), #f5d6db);
 }
 
 section {
