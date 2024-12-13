@@ -28,6 +28,8 @@
 #cta_button {
     display: flex;
     gap: 24px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #cta_button a {
@@ -35,13 +37,14 @@
     color: var(--color-neutral-9);
 }
 
+
 #skoob_icon{
     width: 25px;
 }
 
 #link_button {
     display: flex;
-    gap: 8px;
+    gap: 10px;
     align-items: center;
     background-color: var(--color-neutral-0);
     padding: 8px 14px;

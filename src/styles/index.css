@@ -9,6 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    width: 100%;
     position: relative;
 }
 
@@ -35,3 +36,38 @@ body {
     -webkit-mask-position: center;
     mask-position: center;
 }
+
+
+#inicio_button {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #inicio_button a {
+    text-decoration: none;
+    color: var(--color-neutral-9);
+  }
+
+  #sociais {
+    display: flex; 
+    gap: 10px;
+  }
+
+  #link_button {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: #007BFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s;
+  }
+
+  #link_button:hover {
+    background-color: #e0e0e0;
+  }
+
