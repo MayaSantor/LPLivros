@@ -2,7 +2,7 @@
 @import url('header.css');
 @import url('home.css');
 @import url('menu.css');
-@import url('testimonials.css');
+@import url('estatistica.css');
 @import url('footer.css');
 
 :root {
@@ -90,11 +90,5 @@ section {
 
 .section-subtitle {
     font-size: 2.1875rem;
-}
-
-#link-estatistica {
-    border: none;
-    text-decoration: none;
-    text-decoration-line: none;
 }
 
